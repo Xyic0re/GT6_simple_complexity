@@ -41,3 +41,11 @@ recipes.addShaped(<Genetics:labMachine:2>, [[<ore:paneGlassColorless>,<minecraft
 #Splicer
 recipes.remove(<Genetics:advMachine:0>);
 recipes.addShaped(<Genetics:advMachine:0>, [[<ore:chipsetGold>,<ore:plateIron>,<ore:chipsetGold>],[<Genetics:misc:10>,<Genetics:misc:11>,<Genetics:misc:10>],[<Forestry:thermionicTubes:7>,<ore:gearBronze>,<Forestry:thermionicTubes:7>]]);
+
+#DNA dye
+recipes.remove(<Genetics:misc:1>);
+recipes.addShapeless(<Genetics:misc:1> * 8, [<gregtech:gt.meta.chemtube:8373>,<gregtech:gt.meta.chemtube:8298>,<Genetics:misc:4>,<Natura:Glowshroom:0>]);
+
+#Fluorescent dye
+recipes.remove(<Genetics:misc:2>);
+recipes.addShapeless(<Genetics:misc:2> * 8, [<gregtech:gt.meta.chemtube:8341>,<gregtech:gt.meta.chemtube:8389>,<Genetics:misc:4>,<Natura:Glowshroom:1>]);
